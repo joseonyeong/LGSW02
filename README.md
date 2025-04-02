@@ -12,3 +12,4 @@
 - project date (만나이 계산기) : [github주소] (https://github.com/joseonyeong/LGSW_project_date)
 - project pizza order bot (피자 주문기) : [github주소] (https://github.com/joseonyeong/LGSW_project_pizzaorderbot)
 - project add pizza order bot (위의 pizza order bot을 추가로 진행한 프로젝트) : [github주소] (https://github.com/joseonyeong/LGSW_project_add_pizzaorderbot)
+
