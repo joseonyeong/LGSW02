@@ -1,0 +1,8 @@
+# Ruff stuff:
+.ruff_
+
+# 대용량 파일 또는 폴더
+# 서버키, 인증키 등
+dataset/
+data/
+lab02/
