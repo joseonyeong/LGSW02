@@ -31,3 +31,35 @@
 	/bin, /sbin, /etc 루트 디렉터리와 구조가 비슷함
 	(위의 이름과 비슷한 하위 디렉토리가 생김)
 /var : 로그파일, 메일, 캐시 등 파일이 만들어짐
+
+[절대경로 vs 상대경로]
+cd /usr : 절대경로
+cd .. : 상대경로
+cd usr/ : 상대경로
+
+home으로 이동
+cd ~
+
+ls *.py # py 파일 확인
+
+drwxr-xr-x   2 root root 
+파일 타입 ;
+	d :  directory
+	l : 심볼릭 링크
+	- : 일반적인 파일 (.py)
+rwxr-xr-x : 파일 모드 (읽기, 쓰기, 권한 부여)
+root : 소유자
+root : 소유그룹
+ls -l :
+
+ls -a : 숨김파일까지 확인
+ls -F: 
+	보통 파일은 표시 x
+	/ 는 디렉터리
+	* 는 실행 가능 파일, shell script 파일
+	@는 심볼릭 링크
+
+[디렉토리 생성]
+mkdir [folder name]
+[파일 생성]
+touch [file name]
