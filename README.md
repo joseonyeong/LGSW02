@@ -12,6 +12,7 @@
 - project date (만나이 계산기) : [github주소] (https://github.com/joseonyeong/LGSW_project_date)
 - project pizza order bot (피자 주문기) : [github주소] (https://github.com/joseonyeong/LGSW_project_pizzaorderbot)
 - project add pizza order bot (위의 pizza order bot을 추가로 진행한 프로젝트) : [github주소] (https://github.com/joseonyeong/LGSW_project_add_pizzaorderbot)
+- project dashboard : [github주소] (https://github.com/joseonyeong/LGSW_project_dashboard)
 
 # 내용 정리_notion
 (https://rebel-sponge-f81.notion.site/LG-U-Why-Not-SW-Camp-1b995b3f859c802fb4f5de62143a84a5)
