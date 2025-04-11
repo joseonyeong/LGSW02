@@ -1,0 +1,12 @@
+엔지니어 기초
+- 리눅스 기본 명령어
+- vim 편집기
+- shell script 생성 및 작성 (+ 기본문법 숙지)
+
+ubuntu virtualbox
+도구 -> 네트워크 -> 만들기 (nat 네트워크)
+
+window가 호스트
+ubuntu-server(만든)가 게스트
+
+
