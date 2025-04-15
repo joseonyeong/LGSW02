@@ -1,0 +1,134 @@
+## 원격으로 접속하기
+
+vscode에서 bash 접속
+-> 파일 만들기
+	mkdir vsCodeConnect #vsCodeConnect 이름의 파일 만들기
+-> ls로 확인
+-> 안만들어지는게 맞음
+(아직 리눅스 세팅을 안해서 그럼)
+(밑에서부터 세팅)
+
+
+## 윈도우 환경에서 리눅스 환경으로 들어가기
+vscode 에서 설정환경
+
+패키지 다운
+
+f1 
+-> select ssh
+-> config
+config file에서
+	호스트명은 마음대로
+	hostname, user, port설정
+		Host joseonyeong-linux
+	 	HostName 127.0.0.1
+    		port 22
+    		User joseonyeong
+(putty 접속했을 때처럼)
+
+## 접속방법
+-> vscode 5번째 아이콘 (tv 클릭)
+-> remote ssh joseonyeong-linux
+-> 화살표 (connect)
+-> linux -> 계속 -> 1234
+-> 파일탐색기 폴더열기
+	/home/joseonyeong/
+	이면 연결성공
+위에 확인하는 거 단축키 ctrl + o
+
+## desktop으로 이동
+-> folder 열기
+-> desktop에서 폴더 생성 (tempFolder)
+-> ubuntu terminal에서 ls로 확인 
+	(만들어짐)
+
+## error 시
+could not establish connection to "joseonyeong-linux"로 뜨면 포트번호 틀린 거
+virtualbox -> 도구 -> 포트포워딩
+에서 포트번호 확인 혹은 접속할 번호로 변경
+-> 적용
+
+## tip
+리눅스쪽은 코드보다는 이론이 약해서 문제일 때가 많음.
+
+## 리눅스 스터디
+오늘 모여영
+오늘 안되면 수요일
+주제) 교재선정
+
+
+## Docker
+도커는 리눅스, 윈도우 상관없음.
+but, 리눅스가 편함.
+
+vscode에 저번시간 git과 연결한 파일에서
+lab03 folder 생성
+docker_0414.md 파일 생성
+
+vscode bash창에서
+sudo docker version으로 도커 버전 확인
+전부 스크랩
+
+docker_0414.md에서 paste
+[file 내용]
+# Docker Version 확인
+```bash
+paste
+```
+
+# 이번주 수업 내용
+- 도커 기본 명령어
+- 다양한 컨테이너 실습 : python, django, Nginx, etc...
+- Docker 네트워크, Volume, etc...
+- Dockerfile 만드는 것이 핵심
+- Docker Compose까지 수업 진행
+
+(vscode bash git 한 폴더로 경로 이동)
+
+
+
+whoami
+linux, docker 다름
+head -n 4 /etc/os-release
+운영체제 버전 확인 (deplosy.sh file)
+
+도커 명령어 특징
+- 이미지의 특정 버전을 명시하지 않으면 기본적으로 가장 최신 버전을 다운로드함.
+
+
+sudo docker images
+sudo docker rm
+
+status는 상태 (exited는 활성화x)
+
+sudo docker container rm modest_knuth # 여러개 삭제
+# docker 활성화(들어가기)
+sudo docker container run -it ubuntu bash
+root@ba3e5f86d2d6:/# 
+# 활성화 후 bash에서 실행하면 status up된 거 확인할 수 있음
+joseonyeong@joseonyeong-Server:~/Desktop/LGSW_Linux_test$ sudo docker container ls
+sudo docker container stop [id] # 강제 활성화 종료
+
+
+## sudo는 docker 사용시 입력 안하게 설정
+sudo usermod -aG docker $USER
+sudo reboot
+## sudo 사용할 수 있도록 재설정
+sudo gpasswd -d $USER docker 
+sudo reboot
+
+[ Nginx 컨테이너 서버 띄우기 ]
+- 포트 포워딩
+- 컨테이너에서 포트번호 작성방법
+
+Nginx 장점
+- 웹서버, 가볍다
+- 로드 밸런서
+- 비동기 이벤트 기반으로 방식으로 동작
+- 동기 vs 비동기
+	동기 : 요청이 들어올 때마다 처리 (직렬적으로)
+	비동기 : 한번에 처리
+
+[ 컨테이너 환경 변수 설정 ]_중요
+- `--env` : 컨테이너 환경 변수 설정
+	
