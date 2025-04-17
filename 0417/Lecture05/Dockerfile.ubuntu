@@ -1,0 +1,12 @@
+## 우분투부터 시작한 작업 파일
+FROM ubuntu:24.04
+
+ENV TZ=Asia/Seoul
+
+#### ---- 설치 확인 용도 ---- ####
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y \
+    vim \
+    mysql-server \
+    mysql-client \
+    && rm -rf /var/lib/apt/lists/*
