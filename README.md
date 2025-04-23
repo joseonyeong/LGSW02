@@ -17,3 +17,9 @@
 
 # 내용 정리_notion
 (https://rebel-sponge-f81.notion.site/LG-U-Why-Not-SW-Camp-1b995b3f859c802fb4f5de62143a84a5)
+
+### Communication
+![discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)
+![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
+--
+
