@@ -44,9 +44,9 @@ Python을 중심으로 **데이터 분석, 통계 기초**, **Ubuntu/Linux 환�
 ---
 
 ## 기록  
-- 📝 Notion 정리 : [LG U+ Why Not SW Camp 노션 페이지](https://rebel-sponge-f81.notion.site/LG-U-Why-Not-SW-Camp-1b995b3f859c802fb4f5de62143a84a5)
-- 📚 Velog 블로그 : [Velog 페이지](https://velog.io/@whtjsdud54/)
-- 💻 GitHub : 해당 저장소 및 각 프로젝트별 링크 참고
+- Notion 정리 : [LG U+ Why Not SW Camp 노션 페이지](https://rebel-sponge-f81.notion.site/LG-U-Why-Not-SW-Camp-1b995b3f859c802fb4f5de62143a84a5)
+- Velog 블로그 : [Velog 페이지](https://velog.io/@whtjsdud54/)
+- GitHub : 해당 저장소 및 각 프로젝트별 링크 참고
 
 ---
 
