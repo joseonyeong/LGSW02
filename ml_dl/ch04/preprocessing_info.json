@@ -1,0 +1,1 @@
+{"age_mean": 29.931880819366853, "fare_mean": 31.17746946107784, "pclass_mode": 3, "embarked_mode": 2, "features": ["Pclass", "Sex", "Age", "SibSp", "Parch", "Fare", "Embarked"], "sex_mapping": {"male": 0, "female": 1}, "embarked_mapping": {"C": 0, "Q": 1, "S": 2}}
