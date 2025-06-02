@@ -4,9 +4,6 @@ matplotlib
 scikit-learn
 pandas
 seaborn
-torch
-torchvision
-torchaudio
 tensorboard
 tqdm
 pillow
@@ -22,6 +19,5 @@ gdown
 pytorch-lightning
 pytorch-ignite
 portalocker
-torchtext
 streamlit
 scikit-optimize
