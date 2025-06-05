@@ -182,6 +182,6 @@ pyrightconfig.json
 dataset/
 data/
 lab02/
-LGSW02/ml_dl/ch12/celeba/
-LGSW02/ml_dl/ch12/kaggle/test/
-LGSW02/ml_dl/ch12/kaggle/train/
+ml_dl/ch12/celeba/
+ml_dl/ch12/kaggle/test/
+ml_dl/ch12/kaggle/train/
