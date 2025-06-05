@@ -21,3 +21,4 @@ pytorch-ignite
 portalocker
 streamlit
 scikit-optimize
+timm
