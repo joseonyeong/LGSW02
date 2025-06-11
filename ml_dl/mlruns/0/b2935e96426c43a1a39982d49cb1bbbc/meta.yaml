@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b2935e96426c43a1a39982d49cb1bbbc/artifacts
+deleted_time: 1749623669715
+end_time: 1749622433325
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b2935e96426c43a1a39982d49cb1bbbc
+run_name: adaptable-shark-126
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749622359352
+status: 4
+tags: []
+user_id: Admin

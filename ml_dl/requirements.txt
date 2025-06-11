@@ -22,3 +22,6 @@ portalocker
 streamlit
 scikit-optimize
 timm
+requests
+transformers
+mlflow

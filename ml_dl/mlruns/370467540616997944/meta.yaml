@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/370467540616997944
+creation_time: 1749624094216
+experiment_id: '370467540616997944'
+last_update_time: 1749624094216
+lifecycle_stage: active
+name: Iris-Sklearn-RandomSearch
