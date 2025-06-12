@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Admin/Desktop/LGSW/LGSW02/ml_dl/mlruns/707099834845361168/a68e2563f6a74e778e6dbd73c462ecc6/artifacts
+end_time: 1749712037153
+entry_point_name: ''
+experiment_id: '707099834845361168'
+lifecycle_stage: active
+run_id: a68e2563f6a74e778e6dbd73c462ecc6
+run_name: abrasive-dog-17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749712034754
+status: 3
+tags: []
+user_id: Admin

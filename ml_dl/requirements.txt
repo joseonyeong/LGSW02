@@ -25,3 +25,4 @@ timm
 requests
 transformers
 mlflow
+wordcloud

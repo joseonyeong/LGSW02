@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Admin/Desktop/LGSW/LGSW02/ml_dl/mlruns/707099834845361168/models/m-5c6786501af746948017fdb18a397e68/artifacts
+creation_timestamp: 1749712034804
+experiment_id: '707099834845361168'
+last_updated_timestamp: 1749712037143
+model_id: m-5c6786501af746948017fdb18a397e68
+model_type: null
+name: pipeline_model
+source_run_id: a68e2563f6a74e778e6dbd73c462ecc6
+status: 2
+status_message: null

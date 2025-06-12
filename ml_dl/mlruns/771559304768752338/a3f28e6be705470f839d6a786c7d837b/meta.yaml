@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Admin/Desktop/LGSW/LGSW02/ml_dl/mlruns/771559304768752338/a3f28e6be705470f839d6a786c7d837b/artifacts
+end_time: 1749710726088
+entry_point_name: ''
+experiment_id: '771559304768752338'
+lifecycle_stage: active
+run_id: a3f28e6be705470f839d6a786c7d837b
+run_name: resilient-boar-549
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749710723691
+status: 3
+tags: []
+user_id: Admin

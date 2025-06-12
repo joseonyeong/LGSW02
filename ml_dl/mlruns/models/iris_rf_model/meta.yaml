@@ -1,8 +1,0 @@
-aliases:
-  production: '1'
-creation_timestamp: 1749624097515
-deployment_job_id: null
-deployment_job_state: null
-description: Random Forest 모델로 Iris 품종을 분류합니다. 전처리 포함된 sklearn 파이프라인 사용.
-last_updated_timestamp: 1749624097684
-name: iris_rf_model
