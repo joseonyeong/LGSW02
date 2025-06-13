@@ -26,3 +26,4 @@ requests
 transformers
 mlflow
 wordcloud
+accelerate
